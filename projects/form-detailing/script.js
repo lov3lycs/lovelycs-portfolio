@@ -1,0 +1,1 @@
+document.getElementById("request").addEventListener("submit",e=>{e.preventDefault();document.getElementById("note").textContent="Спасибо! Это демонстрация: подключение отправки заявок можно добавить при заказе.";});
