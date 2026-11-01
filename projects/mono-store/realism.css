@@ -1,0 +1,30 @@
+/* MONO — independent design-store editorial direction */
+:root{--paper:#f2f0ea;--ink:#25251f;--olive:#69705b;--line:#d8d5cc}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink)}
+header{height:78px;position:sticky;top:0;z-index:15;background:#f2f0eaf0;backdrop-filter:blur(12px);padding:0 7%;border-color:var(--line)}
+.logo{font:700 31px Georgia;letter-spacing:-2.5px}nav{gap:30px}nav a{font-size:12px;color:#55564e}.cart{border:1px solid #8f9186;padding:12px 17px;font-size:12px;transition:.2s}.cart:hover{background:#25251f;color:#f2f0ea}
+.hero{min-height:650px;padding:90px 9%;grid-template-columns:.9fr 1.1fr;background:#e8e6de;gap:7%}.eyebrow{font-size:10px;letter-spacing:1.6px;color:#77745f}.hero h1,.story h2,.contact h2{font:500 clamp(46px,6.3vw,82px)/.94 Georgia,serif;letter-spacing:-3px}.hero h1 i,.story h2 i{color:#777b64}.hero p,.story p,.contact p{font-size:14px;line-height:1.9;color:#69695f}.button{background:#34372e;color:#f5f3ec;padding:17px 22px;font-size:11px;letter-spacing:1.2px;transition:.2s}.button:hover{background:#69705b;transform:translateY(-2px)}.hero-art{height:470px;background-image:linear-gradient(0deg,#25201915,#25201900),url('assets/forma-vase.jpg');background-position:center 45%;box-shadow:14px 14px 0 #d6d3c9}
+.catalog{padding:115px 9%}.catalog-head{margin-bottom:34px}.catalog-head h2{font:500 52px Georgia;letter-spacing:-2px}.catalog-tools{grid-template-columns:1fr 190px 230px;margin:0 0 35px}.catalog-tools input,.catalog-tools select{background:transparent;border:0;border-bottom:1px solid #aaa99e;padding:13px 4px;font-size:12px;border-radius:0}.products{grid-template-columns:repeat(3,minmax(0,1fr));gap:38px 22px}.product{min-width:0}.product-art{height:340px;background:#e3e0d7}.product-photo{transition:transform .6s cubic-bezier(.2,.7,.2,1)}.product:hover .product-photo{transform:scale(1.045)}.product-art:has(.product-photo)>span{background:#f2f0eae8;letter-spacing:1.2px}.product-info{padding:18px 0 9px;gap:10px}.product-info h3{font:500 22px Georgia;letter-spacing:-.4px}.product-info p{font-size:12px;color:#77766d}.product-info b{font:13px Arial,sans-serif;white-space:nowrap}.add{border-top:1px solid #d4d1c8;border-bottom:1px solid #aaa99e;padding:15px 0;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#4f5544}.add:hover{color:#111;border-color:#4f5544}
+.story{padding:120px 12%;background:#e4e1d8}.story h2{font-size:clamp(48px,6vw,76px)}.story p{max-width:510px}.contact{padding:100px 12%;gap:40px}.contact h2{font-size:55px}.contact .button{white-space:nowrap}footer{padding:30px 7%;border-color:var(--line)}footer span{font-size:9px;letter-spacing:1.3px;color:#8a887e}
+.drawer,.checkout{background:var(--paper)}.dark-button{background:#34372e}.dark-button:hover{background:#69705b}.checkout input,.checkout textarea{background:#f8f7f2;border-radius:0}.toast{background:#34372e}
+@media(max-width:800px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-tools{grid-template-columns:1fr 1fr}.catalog-tools input{grid-column:span 2}}
+@media(max-width:650px){header{height:68px;padding:0 5%}nav{display:flex;gap:12px}nav a{font-size:9px}.cart{padding:9px 10px;font-size:10px}.hero{grid-template-columns:1fr;padding:72px 7%;gap:30px}.hero-art{height:340px;box-shadow:8px 8px 0 #d6d3c9}.hero h1{font-size:clamp(45px,12vw,66px)}.catalog{padding:78px 7%}.catalog-head h2{font-size:40px}.catalog-tools{grid-template-columns:1fr 1fr}.catalog-tools input{grid-column:span 2}.products{grid-template-columns:1fr 1fr;gap:28px 13px}.product-art{height:220px}.product-info{display:block}.product-info h3{font-size:18px}.product-info b{display:block;margin-top:9px}.add{font-size:9px;line-height:1.5}.story{padding:80px 7%}.contact{padding:75px 7%}.contact h2{font-size:44px}footer{padding:24px 6%;gap:12px;flex-wrap:wrap}footer span{order:3;width:100%}}
+@media(max-width:390px){.products{grid-template-columns:1fr}.product-art{height:310px}}
+
+/* Keep the supplied Forma Vase image intact in the hero. */
+.hero-art{background-image:url('assets/forma-vase.jpg')!important;background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important;background-color:#e8e6de!important}
+
+
+/* Product photos remain original files: contain, preserve aspect ratio, and show no added backdrop. */
+.product-art:has(.product-photo){
+  background:transparent!important;
+}
+.product-art .product-photo{
+  object-fit:contain!important;
+  object-position:center!important;
+  background:transparent!important;
+  transform:none!important;
+}
+.product:hover .product-art .product-photo{
+  transform:none!important;
+}
