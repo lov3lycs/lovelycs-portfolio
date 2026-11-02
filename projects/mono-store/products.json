@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Forma Vase",
+    "desc": "Керамическая ваза ручной формы",
+    "category": "Керамика",
+    "price": 3900,
+    "tone": "sand",
+    "tag": "01 / CERAMIC",
+    "image": "assets/forma-vase.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Soft Light",
+    "desc": "Настольный светильник с мягким светом",
+    "category": "Свет",
+    "price": 6500,
+    "tone": "sage",
+    "tag": "02 / LIGHT",
+    "image": "assets/soft-light.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Daily Tray",
+    "desc": "Поднос из натурального дерева",
+    "category": "Аксессуары",
+    "price": 2400,
+    "tone": "clay",
+    "tag": "03 / OBJECT",
+    "image": "assets/daily-tray.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Stone Cup",
+    "desc": "Чашка из матовой керамики",
+    "category": "Керамика",
+    "price": 1600,
+    "tone": "stone",
+    "tag": "04 / CERAMIC",
+    "image": "assets/stone-cup.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Arc Lamp",
+    "desc": "Лаконичный настольный светильник",
+    "category": "Свет",
+    "price": 8900,
+    "tone": "sage",
+    "tag": "05 / LIGHT",
+    "image": "assets/arc-lamp.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Forma Bowl",
+    "desc": "Глубокая чаша для сервировки",
+    "category": "Керамика",
+    "price": 2800,
+    "tone": "clay",
+    "tag": "06 / CERAMIC",
+    "image": "assets/forma-bowl.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Wood Stand",
+    "desc": "Подставка для книг и мелочей",
+    "category": "Аксессуары",
+    "price": 3200,
+    "tone": "sand",
+    "tag": "07 / OBJECT",
+    "image": "assets/wood-stand.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Vase",
+    "desc": "Ваза с мягким скульптурным силуэтом",
+    "category": "Керамика",
+    "price": 4700,
+    "tone": "stone",
+    "tag": "08 / CERAMIC",
+    "image": "assets/cloud-vase.jpeg"
+  }
+]

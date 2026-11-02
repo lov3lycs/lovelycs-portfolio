@@ -1,0 +1,1 @@
+document.getElementById("booking").addEventListener("submit",e=>{e.preventDefault();document.getElementById("formNote").textContent="Спасибо! Это демонстрация: подключение отправки заявок можно добавить при заказе.";});
