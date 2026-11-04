@@ -1,0 +1,138 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#101113;color:#f4f5f6;font-family:Manrope,Arial,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.site-header{height:86px;padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff16;background:#101113;position:sticky;top:0;z-index:50}.brand{display:flex;align-items:center;gap:11px;font-size:21px;font-weight:800;letter-spacing:-1.2px}.brand small{display:block;font-size:8px;letter-spacing:2px;color:#7f858d;font-weight:600}.brand-mark{width:38px;height:42px;display:grid;place-items:center;background:#2999dc;color:#fff;font-size:23px;font-weight:800;clip-path:polygon(50% 0,100% 18%,90% 80%,50% 100%,10% 80%,0 18%)}.main-nav{display:flex;gap:34px}.main-nav a{font-size:12px;color:#c1c4c9;transition:.25s}.main-nav a:hover,.main-nav a.active{color:#fff}.main-nav a.active:after{content:"";display:block;height:2px;background:#2999dc;margin-top:8px}.header-phone{font-size:12px;font-weight:700}.phone-dot{color:#2999dc;font-size:18px;margin-right:7px}.menu-toggle{display:none}.hero{height:min(790px,calc(100vh - 86px));min-height:630px;position:relative;display:flex;align-items:center;padding:7% 8%;overflow:hidden;background:#111}.hero-image{position:absolute;inset:0;background-image:url('assets/detailing-polish.jpg');background-size:cover;background-position:center 48%;filter:saturate(.75);transform:scale(1.02)}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,8,10,.96) 0%,rgba(7,8,10,.82) 44%,rgba(7,8,10,.23) 100%),linear-gradient(0deg,#101113 0%,transparent 25%)}.hero-content{position:relative;z-index:2;max-width:760px}.eyebrow,.section-kicker{font-size:10px;letter-spacing:2.5px;color:#2999dc;font-weight:700}.eyebrow span{display:inline-block;width:7px;height:7px;border-radius:50%;background:#2999dc;margin-right:10px;box-shadow:0 0 15px #2999dc}.hero h1{font-size:clamp(58px,8.2vw,118px);line-height:.91;letter-spacing:-.075em;margin:35px 0 25px;font-weight:800}.hero h1 em{font-style:normal;color:#2999dc}.hero-content p{max-width:520px;color:#b4b7bd;font-size:15px;line-height:1.8}.hero-actions{display:flex;gap:14px;margin-top:35px}.btn{min-height:54px;padding:0 24px;display:inline-flex;align-items:center;justify-content:center;gap:28px;border-radius:40px;font-size:13px;font-weight:700;transition:transform .25s,background .25s,border-color .25s}.btn:hover{transform:translateY(-3px)}.btn-blue{background:#2999dc;color:white;border:1px solid #2999dc}.btn-blue:hover{background:#147fbe}.btn-outline{border:1px solid #ffffff70;color:#fff}.btn b{font-size:18px}.hero-bottom{position:absolute;bottom:25px;left:8%;right:8%;display:flex;justify-content:space-between;color:#899099;font-size:9px;letter-spacing:2px;z-index:2}.scroll-cue{position:absolute;right:6%;bottom:48px;border:1px solid #ffffff55;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;color:#2999dc;font-size:20px}.section-pad{padding:115px 8%}.intro{background:#f2f3f4;color:#16181b}.intro .section-kicker,.services .section-kicker,.prices .section-kicker,.gallery .section-kicker,.contacts .section-kicker{color:#278dc8}.intro-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:8%;align-items:center}.intro h2,.section-top h2,.request-copy h2{font-size:clamp(43px,6vw,76px);letter-spacing:-.075em;line-height:.98;margin:25px 0 35px}.intro h2 span{color:#2999dc}.intro-copy p{font-size:14px;line-height:1.9;color:#626970}.text-link{display:inline-flex;gap:24px;align-items:center;border-bottom:1px solid #2999dc;padding:12px 0;margin-top:14px;font-size:12px;font-weight:800}.text-link b{color:#2999dc;font-size:17px}.feature-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #d2d5d8;margin-top:75px;padding-top:25px;gap:20px}.feature-strip div{display:flex;gap:16px;align-items:center}.feature-strip b{font-size:12px;color:#2999dc}.feature-strip span{font-size:12px;font-weight:700;line-height:1.5}.services{background:#f8f9fa;color:#17191c}.section-top{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:45px}.section-top h2{margin:20px 0 0}.section-top h2 span{color:#2999dc}.section-top>p{max-width:360px;color:#737a81;font-size:13px;line-height:1.8;margin:0 0 5px}.service-search{height:58px;border:1px solid #d6dadd;border-radius:8px;display:flex;align-items:center;padding:0 18px;margin-bottom:24px;background:#fff}.service-search>span{font-size:27px;color:#2999dc;margin-right:12px}.service-search input{border:0;outline:0;flex:1;min-width:0;color:#1b1e21;background:transparent;font-size:13px}.service-search kbd{font-size:10px;color:#9ba1a7;border:1px solid #e1e4e6;border-radius:4px;padding:4px 7px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{background:white;border:1px solid #e5e8ea;border-radius:10px;overflow:hidden;box-shadow:0 8px 25px #17232b08;transition:transform .3s,box-shadow .3s}.service-card:hover{transform:translateY(-6px);box-shadow:0 18px 35px #17232b14}.service-visual{height:205px;position:relative;overflow:hidden;background:#151a1e}.service-visual:before,.gallery-placeholder:before{content:"";position:absolute;inset:0;background-image:url('assets/detailing-polish.jpg');background-size:cover;background-position:center;opacity:.8;transition:transform .7s}.service-card:hover .service-visual:before{transform:scale(1.06)}.visual-one:before{background-position:48% 52%}.visual-two:before{background-position:30% 40%;filter:hue-rotate(12deg)}.visual-three:before{background-position:80% 50%;filter:saturate(.6)}.visual-four:before{background-position:70% 30%;filter:hue-rotate(35deg)}.visual-five:before{background-position:20% 65%;filter:brightness(.75)}.visual-six:before{background-position:95% 50%;filter:grayscale(.7)}.service-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080a0dbb,transparent 65%)}.service-visual span{position:absolute;z-index:2;top:16px;left:18px;color:#fff;font-size:10px;letter-spacing:2px}.service-visual>b{position:absolute;z-index:2;right:14px;bottom:-30px;font-size:100px;line-height:1;color:#ffffff20;letter-spacing:-10px}.service-info{padding:22px;display:flex;justify-content:space-between;gap:15px;align-items:center}.service-info h3{font-size:17px;margin:0 0 9px}.service-info p{font-size:11px;line-height:1.7;color:#7b8289;margin:0;max-width:280px}.detail-btn{flex:0 0 42px;width:42px;height:42px;border-radius:50%;border:1px solid #dce1e5;background:white;color:#2999dc;font-size:20px;cursor:pointer;transition:.25s}.detail-btn:hover{background:#2999dc;color:#fff;border-color:#2999dc}.empty-state{padding:35px;text-align:center;color:#727a82}.statement{min-height:600px;position:relative;display:flex;align-items:center;padding:100px 9%;overflow:hidden;background:#101316}.statement-bg{position:absolute;inset:0;background:linear-gradient(90deg,#0b0e12 0%,#0b0e12e8 52%,#0b0e1260),url('assets/detailing-polish.jpg') center/cover;filter:grayscale(.6)}.statement-content{position:relative;max-width:700px}.statement h2{font-size:clamp(45px,6vw,78px);letter-spacing:-.07em;line-height:.98;margin:28px 0}.statement h2 span{color:#2999dc}.statement p{max-width:470px;color:#aab0b6;font-size:14px;line-height:1.9;margin-bottom:30px}.statement-side{position:absolute;right:8%;bottom:55px;color:#ffffff45;font-size:10px;letter-spacing:3px;line-height:2;text-align:right}.prices{background:#121519}.prices .section-top>p{color:#929aa2}.price-tabs{display:flex;gap:8px;margin:30px 0 18px;flex-wrap:wrap}.price-tab{border:1px solid #343b42;background:transparent;color:#aab0b7;border-radius:30px;padding:10px 18px;font-size:11px;cursor:pointer}.price-tab.active,.price-tab:hover{background:#2999dc;border-color:#2999dc;color:white}.price-table{border-top:1px solid #353b42}.price-head,.price-row{display:grid;grid-template-columns:1.1fr 1.2fr .55fr;gap:20px;align-items:center;padding:19px 15px;border-bottom:1px solid #ffffff1a}.price-head{color:#6e7881;font-size:9px;letter-spacing:2px}.price-row b{font-size:13px}.price-row span{font-size:11px;color:#8f979f}.price-row strong{font-size:13px;color:#2999dc;text-align:right}.price-note{font-size:10px;color:#737c84;margin:18px 0}.prices .text-link{color:#fff}.gallery{background:#f2f3f4;color:#17191c}.gallery .section-top>p{color:#747b82}.gallery-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:16px;align-items:stretch}.gallery-item{height:330px;border:0;padding:0;position:relative;overflow:hidden;border-radius:10px;text-align:left;background:#111;cursor:pointer}.gallery-large{height:420px;grid-row:span 2}.gallery-placeholder{position:absolute;inset:0;display:block;background:#14191e;overflow:hidden}.gallery-placeholder:before{background-image:url('assets/detailing-polish.jpg')}.gp-one:before{background-position:center}.gp-two:before{background-position:20% center;filter:hue-rotate(25deg)}.gp-three:before{background-position:80% center;filter:grayscale(.6)}.gallery-item:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#07090dcc,transparent 60%)}.gallery-item b,.gallery-item i{position:absolute;z-index:2;bottom:22px;color:white}.gallery-item b{left:22px;font-size:13px}.gallery-item i{right:22px;font-size:20px;font-style:normal;color:#2999dc}.gallery-item:hover .gallery-placeholder:before{transform:scale(1.06)}.request-section{padding:115px 8%;display:grid;grid-template-columns:1fr .8fr;gap:10%;background:#f8f9fa;color:#15181b}.request-copy h2{font-size:clamp(42px,5vw,68px);margin:28px 0}.request-copy h2 span{color:#2999dc}.request-copy>p{max-width:480px;color:#737b83;font-size:13px;line-height:1.9}.request-contact{border-top:1px solid #dce0e3;margin-top:45px;padding-top:20px;display:flex;flex-direction:column;gap:8px}.request-contact span{font-size:9px;letter-spacing:2px;color:#2999dc}.request-contact b{font-size:13px}.request-form{background:#fff;border:1px solid #e3e6e8;border-radius:12px;padding:30px;box-shadow:0 18px 50px #17232b0b;display:flex;flex-direction:column;gap:18px}.request-form label{font-size:11px;font-weight:700;color:#4a5158}.request-form input:not([type=checkbox]),.request-form select{width:100%;margin-top:9px;padding:15px;border:1px solid #dfe3e6;border-radius:6px;background:#f8f9fa;color:#1b1f23;outline:0}.request-form input:focus,.request-form select:focus{border-color:#2999dc}.request-form .consent{display:flex;align-items:flex-start;gap:9px;color:#7b8289;font-weight:400;line-height:1.5}.consent input{accent-color:#2999dc}.submit-btn{width:100%;border:0;cursor:pointer}.request-form small{font-size:9px;color:#8d949a;line-height:1.5}.contacts{background:#111418}.contacts .section-top>p{color:#929aa2}.contacts-grid{display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid #ffffff22;border-bottom:1px solid #ffffff22}.contacts-grid>div{padding:27px 25px 27px 0;display:flex;flex-direction:column;gap:12px}.contacts-grid small{font-size:9px;letter-spacing:2px;color:#77818a}.contacts-grid a,.contacts-grid b{font-size:15px;font-weight:700}.contacts-grid a:hover{color:#2999dc}.map-placeholder{height:230px;margin-top:35px;position:relative;overflow:hidden;background:#1a2025;border:1px solid #ffffff18;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px}.map-lines{position:absolute;inset:-40%;opacity:.25;background-image:linear-gradient(35deg,transparent 48%,#6e7b84 49%,#6e7b84 50%,transparent 51%),linear-gradient(125deg,transparent 48%,#6e7b84 49%,#6e7b84 50%,transparent 51%);background-size:90px 90px;transform:rotate(-8deg)}.map-placeholder span,.map-placeholder small{position:relative}.map-placeholder span{font-size:20px;font-weight:800;letter-spacing:2px}.map-placeholder small{font-size:9px;letter-spacing:2px;color:#89939b}footer{min-height:100px;padding:25px 5.5%;display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid #ffffff1b;background:#0d0f11}footer>span{font-size:9px;color:#7b848c;letter-spacing:1px}footer>a:last-of-type{font-size:10px;color:#aeb6bd}.modal,.lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}.modal.open,.lightbox.open{display:flex}.modal-backdrop{position:absolute;inset:0;background:#000c;backdrop-filter:blur(6px)}.modal-panel{position:relative;width:min(540px,100%);background:#171c21;border:1px solid #ffffff20;border-radius:14px;padding:45px}.modal-close,.lightbox-close{position:absolute;right:20px;top:15px;background:none;border:0;color:#fff;font-size:30px;cursor:pointer}.modal-kicker{font-size:9px;letter-spacing:2px;color:#2999dc}.modal-panel h2{font-size:32px;letter-spacing:-1px}.modal-panel p{font-size:13px;line-height:1.8;color:#aab2b9;margin-bottom:25px}.lightbox{background:#050607ed;flex-direction:column}.lightbox-content{width:min(900px,90vw);height:min(70vh,600px);position:relative;display:flex;align-items:end;justify-content:start;padding:25px;background:#171d22;border-radius:12px;overflow:hidden}.lightbox-content>span{position:absolute;inset:0;background:url('assets/detailing-polish.jpg') center/cover}.lightbox-content>b{position:relative;color:white;font-size:18px}.lightbox-close{position:fixed;right:5%;top:4%;font-size:40px}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.reveal.visible{opacity:1;transform:none}[hidden]{display:none!important}
+@media(max-width:900px){.main-nav{gap:17px}.main-nav a{font-size:11px}.header-phone{font-size:11px}.section-pad{padding:85px 6%}.hero{padding:8% 6%}.service-grid{grid-template-columns:repeat(2,1fr)}.request-section{padding:85px 6%;gap:5%}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-large{grid-row:auto;height:330px}.gallery-item{height:260px}}
+@media(max-width:650px){.site-header{height:70px;padding:0 5%}.brand{font-size:18px}.brand-mark{width:33px;height:36px}.header-phone{font-size:10px}.menu-toggle{display:flex;flex-direction:column;gap:5px;border:0;background:none;padding:10px;margin-left:auto;margin-right:10px}.menu-toggle i{width:22px;height:2px;background:#fff}.main-nav{display:none;position:absolute;top:70px;left:0;right:0;padding:20px 6%;background:#14181c;flex-direction:column;gap:18px;border-bottom:1px solid #ffffff22}.main-nav.open{display:flex}.main-nav a{font-size:13px}.hero{height:690px;min-height:0;padding:100px 6% 90px;align-items:flex-start}.hero-image{background-position:57% center}.hero-shade{background:linear-gradient(90deg,#07080af2,#07080aa8 70%,#07080a55),linear-gradient(0deg,#101113,transparent 25%)}.hero h1{font-size:clamp(54px,14vw,78px);margin:30px 0 20px}.hero-content p{font-size:13px}.hero-actions{flex-direction:column;align-items:flex-start}.hero-bottom{left:6%;right:6%;font-size:7px;letter-spacing:1px}.hero-bottom span:nth-child(2){display:none}.scroll-cue{right:6%;bottom:55px}.section-pad{padding:75px 6%}.intro-grid,.request-section{grid-template-columns:1fr;gap:10px}.intro h2,.section-top h2,.request-copy h2{font-size:46px}.intro-copy p{font-size:13px}.feature-strip{grid-template-columns:1fr 1fr;row-gap:22px;margin-top:45px}.section-top{display:block}.section-top>p{margin-top:20px}.service-grid{grid-template-columns:1fr}.service-visual{height:220px}.statement{min-height:570px;padding:85px 6%}.statement h2{font-size:48px}.statement-side{font-size:8px;right:6%;bottom:28px}.price-head{display:none}.price-row{grid-template-columns:1fr auto;gap:7px;padding:18px 8px}.price-row span{grid-column:1;grid-row:2}.price-row strong{grid-column:2;grid-row:1/3}.gallery-grid{grid-template-columns:1fr}.gallery-item,.gallery-large{height:280px}.request-section{padding:75px 6%}.request-form{padding:22px}.contacts-grid{grid-template-columns:1fr}.contacts-grid>div{padding:22px 0;border-bottom:1px solid #ffffff18}.contacts-grid>div:last-child{border:0}footer{padding:25px 6%;flex-wrap:wrap}footer>span:first-of-type{width:100%;order:3}.modal-panel{padding:35px 25px}.modal-panel h2{font-size:27px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition-duration:.01ms!important}}
+
+
+/* FIX: readable hero typography — prevent Cyrillic glyphs from colliding */
+.hero h1{
+  line-height:1.02 !important;
+  letter-spacing:-0.035em !important;
+  font-size:clamp(58px,7.8vw,112px) !important;
+  overflow:visible;
+}
+.hero h1 em{
+  letter-spacing:inherit;
+}
+@media(max-width:650px){
+  .hero h1{
+    line-height:1.04 !important;
+    letter-spacing:-0.025em !important;
+    font-size:clamp(42px,10.5vw,68px) !important;
+  }
+}
+
+
+/* FINAL TYPOGRAPHY PASS: readable headings and clean hero */
+.hero{
+  height:auto !important;
+  min-height: min(820px, calc(100vh - 86px)) !important;
+  padding: clamp(76px, 8vh, 110px) 8% 120px !important;
+  align-items:center !important;
+}
+.hero-content{
+  width:100%;
+  max-width:790px !important;
+  margin:0 !important;
+}
+.hero h1{
+  max-width:780px;
+  font-size:clamp(52px, 6.6vw, 92px) !important;
+  line-height:1.12 !important;
+  letter-spacing:-0.025em !important;
+  margin:20px 0 24px !important;
+  overflow:visible;
+  word-break:normal;
+  overflow-wrap:normal;
+}
+.hero h1 em{letter-spacing:inherit !important}
+.hero-bottom,
+.statement-side{display:none !important}
+
+/* Remove overly tight tracking from all large section headings.
+   The original negative tracking made Cyrillic pairs collide. */
+.intro h2,
+.section-top h2,
+.request-copy h2,
+.statement h2{
+  letter-spacing:-0.025em !important;
+  line-height:1.12 !important;
+  word-break:normal;
+  overflow-wrap:normal;
+}
+.service-info h3,
+.price-row b,
+.contacts-grid a,
+.contacts-grid b{
+  letter-spacing:normal !important;
+  line-height:1.35 !important;
+}
+@media(max-width:900px){
+  .hero{
+    min-height:700px !important;
+    padding:76px 6% 100px !important;
+  }
+  .hero h1{
+    font-size:clamp(48px, 8.4vw, 76px) !important;
+    line-height:1.12 !important;
+    letter-spacing:-0.02em !important;
+  }
+}
+@media(max-width:650px){
+  .hero{
+    min-height:690px !important;
+    padding:70px 6% 90px !important;
+  }
+  .hero h1{
+    font-size:clamp(39px, 10vw, 58px) !important;
+    line-height:1.14 !important;
+    letter-spacing:-0.015em !important;
+    margin:18px 0 20px !important;
+  }
+  .intro h2,
+  .section-top h2,
+  .request-copy h2,
+  .statement h2{
+    font-size:clamp(36px, 9vw, 54px);
+    line-height:1.14 !important;
+    letter-spacing:-0.015em !important;
+  }
+}
+
+
+/* MOBILE REFINEMENT — FORM DETAILING */
+@media(max-width:760px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .hero{height:auto!important;min-height:620px!important;padding:86px 6% 72px!important;align-items:center!important}
+  .hero-content{width:100%;max-width:100%!important}
+  .hero h1{font-size:clamp(40px,10.5vw,60px)!important;line-height:1.13!important;letter-spacing:-.018em!important;overflow-wrap:normal}
+  .hero-content p{font-size:14px;line-height:1.7}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:11px}
+  .hero-actions a{width:100%;justify-content:space-between}
+  .section-pad,.request-section{padding:62px 6%}
+  .intro h2,.section-top h2,.request-copy h2,.statement h2{font-size:clamp(35px,9vw,48px)!important;line-height:1.13!important;letter-spacing:-.015em!important}
+  .section-top{display:block}
+  .section-top>p{margin-top:15px;font-size:13px;line-height:1.65}
+  .service-grid{grid-template-columns:1fr;gap:14px}
+  .service-visual{height:230px}
+  .service-info h3{font-size:19px;line-height:1.3}
+  .price-row{grid-template-columns:1fr auto;gap:8px;padding:17px 8px}
+  .price-row b{font-size:14px;line-height:1.4}
+  .price-row span{font-size:11px;line-height:1.5}
+  .price-row strong{font-size:13px}
+  .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .gallery-item,.gallery-large{height:210px}
+  .gallery-large{grid-column:span 2;height:260px}
+  .request-section{grid-template-columns:1fr;gap:24px}
+  .request-form{width:100%;min-width:0;padding:20px}
+  .contacts-grid{grid-template-columns:1fr 1fr}
+  .contacts-grid>div{min-width:0;padding:18px 0}
+  footer{gap:12px}
+}
+@media(max-width:430px){
+  .hero{min-height:590px!important;padding-top:78px!important}
+  .hero h1{font-size:clamp(38px,10vw,48px)!important;line-height:1.15!important}
+  .gallery-grid{grid-template-columns:1fr}
+  .gallery-large{grid-column:auto}
+  .contacts-grid{grid-template-columns:1fr}
+}
